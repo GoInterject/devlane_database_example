@@ -24,7 +24,6 @@ select
   ,c.[CompanyName] as [Company Name]
   ,o.[OrderDate]   as [Order Date]
   ,o.[shipCity]    as [Ship City]
-  ,o.[Freight]     as [Freight] 
   ,'Test'		   as DevLane
 from  [AppDatabase_Test].[dbo].[Orders] o
   inner join [AppDatabase_Test].[dbo].[Customers] c
